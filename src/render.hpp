@@ -1,12 +1,12 @@
-// Header
-// #include "service_render.hpp"
+// responsible for handling rendering calls
 
 class Render
 {
 public:
 	Render() {}
-	
 
+	bool init();
+	
 private:
 
 };
