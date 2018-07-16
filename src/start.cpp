@@ -1,4 +1,10 @@
 #include "system.hpp"
+#include "common_libs.hpp"
+
+// GL3W
+// must be defined here to avoid duplicate symbol errors
+#define GL3W_IMPLEMENTATION
+#include <gl3w.h>
 
 #include <iostream>
 
